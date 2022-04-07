@@ -1009,7 +1009,7 @@ while True:
 
             try:
                 # slicing path string because folder reside in project directory
-                pic_url = picture_input.rsplit("InVidet/", 1)
+                pic_url = picture_input.rsplit("Invidet-FYP/", 1)
                 print("[ERRO] Picture was unable to load", pic_url)
                 pic_url = pic_url[1]
                 print("[ERRO] Picture was unable to load", pic_url)
@@ -1207,7 +1207,7 @@ while True:
                             if alarm:
                                 # time.sleep(1)
                                 print("\a")
-                                playsound('/home/barakzai/Desktop/Projects/Personal/FYP/InVidet/Alarm.wav')
+                                playsound('/home/barakzai/Desktop/Projects/Personal/FYP/Invidet-FYP/Alarm.wav')
                                 # os.system(alarm_sound)
                                 # subprocess.call(["xdg-open", alarm_sound])
                                 # process = subprocess.call(["afplay", alarm_sound])
